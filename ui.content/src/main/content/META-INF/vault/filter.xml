@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/adobeags2399program" mode="merge"/>
+    <filter root="/content/adobeags2399program" mode="merge"/>
+    <filter root="/content/dam/adobeags2399program" mode="merge">
+        <exclude pattern="/content/dam/adobeags2399program(/.*)?"/>
+        <include pattern="/content/dam/adobeags2399program/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/adobeags2399program/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/adobeags2399program" mode="merge"/>
+</workspaceFilter>

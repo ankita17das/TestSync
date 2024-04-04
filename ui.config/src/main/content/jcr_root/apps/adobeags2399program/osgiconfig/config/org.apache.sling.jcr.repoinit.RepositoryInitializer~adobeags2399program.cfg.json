@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/adobeags2399program",
+        "create path (nt:unstructured) /content/dam/adobeags2399program/jcr:content",
+        "set properties on /content/dam/adobeags2399program/jcr:content\n  set cq:conf{String} to /conf/adobeags2399program\n  set jcr:title{String} to \"adobeags2399program\"\nend"
+    ]
+}

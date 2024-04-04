@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "adobeags2399program/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}

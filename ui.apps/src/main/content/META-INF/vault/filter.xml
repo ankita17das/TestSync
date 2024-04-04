@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/adobeags2399program/clientlibs"/>
+    <filter root="/apps/adobeags2399program/components"/>
+    <filter root="/apps/adobeags2399program/i18n"/>
+</workspaceFilter>
