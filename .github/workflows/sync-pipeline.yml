@@ -21,4 +21,4 @@ jobs:
           git remote add cm https://$CM_USER:$CM_TOKEN@git.cloudmanager.adobe.com/ags2399/AdobeAGS2399Program-p133744-uk02125/
           git checkout testsync
           git pull
-          git push cm testsync --force
+          git push -f cm testsync
