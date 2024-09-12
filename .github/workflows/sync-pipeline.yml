@@ -1,0 +1,24 @@
+name: Sync testsync Branch
+
+on:
+  push:
+    branches:
+      - testsync
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Add remote and push
+        env:
+          CM_USER: ${{ secrets.CM_USER }}
+          CM_TOKEN: ${{ secrets.CM_TOKEN }}
+        run: |
+          git remote add cm https://$CM_USER:$CM_TOKEN@git.cloudmanager.adobe.com/ags2399/AdobeAGS2399Program-p133744-uk02125/
+          git checkout testsync
+          git pull
+          git push cm testsync
